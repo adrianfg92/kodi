@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="script.adrian.backups" name="Adrian Backups" version="1.0.3" provider-name="adrian">
+<addons><addon id="kodi.backups" name="Kodi Backups" version="0.0.1" provider-name="adrian">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>

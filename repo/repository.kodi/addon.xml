@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi" name="repository.kodi" version="0.0.1" provider-name="adrianfg92">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/adrianfg92/kodi/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/adrianfg92/kodi/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/adrianfg92/kodi/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>repository.kodi</summary>
+        <description>Description test</description>
+        <disclaimer/>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

@@ -4,7 +4,7 @@ echo " 1/6 ==> Removing old builds folders";
 rm -R repo;
 
 echo " 2/6 ==> Generate files";
-./create_repository.py --datadir=build https://github.com/adrianfg92/kodi.backups .;
+./create_repository.py --datadir=build https://github.com/adrianfg92/kodi.backups ./repository;
 
 echo " 3/6 ==> Create \"repo\" folder";
 mkdir repo;

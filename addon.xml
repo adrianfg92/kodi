@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository" name="repository" version="0.0.1" provider-name="adrianfg92">
+    <!--    <extension point="xbmc.addon.repository">-->
+    <!--        <dir>-->
+    <!--            <info compressed="false">https://raw.githubusercontent.com/adrianfg92/kodi/main/dist/addons.xml</info>-->
+    <!--            <checksum>https://raw.githubusercontent.com/adrianfg92/kodi/main/dist/addons.xml.md5</checksum>-->
+    <!--            <datadir zip="true">https://raw.githubusercontent.com/adrianfg92/kodi/main/dist/</datadir>-->
+    <!--            <hashes>false</hashes>-->
+    <!--        </dir>-->
+    <!--    </extension>-->
+    <!--    <extension point="xbmc.addon.metadata">-->
+    <!--        <summary>repository</summary>-->
+    <!--        <description>Description test</description>-->
+    <!--        <disclaimer/>-->
+    <!--        <platform>all</platform>-->
+    <!--    </extension>-->
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/adrianfg92/kodi/main/dist/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/adrianfg92/kodi/main/dist/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/adrianfg92/kodi/main/dist/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+</addon>

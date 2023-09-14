@@ -26,3 +26,9 @@ echo " 6/6 ==> Commit and push";
 git add .;
 git commit -am "Update";
 git push;
+
+
+for name_zip in $zips
+do
+  echo "$name_zip";
+done

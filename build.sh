@@ -5,7 +5,7 @@ rm -R build;
 rm -R repo;
 
 echo " 2/6 ==> Generate files";
-./create_repository.py --datadir=build https://github.com/repofg92/kodi.backups ./repository;
+./create_repository.py --datadir=build https://github.com/adrianfg92/kodi.backups ./repository;
 
 echo " 3/6 ==> Create \"repo\" folder";
 mkdir repo;

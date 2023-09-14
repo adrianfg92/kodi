@@ -33,5 +33,5 @@ Finish, addons uploaded:"
 
 for name_zip in $zips
 do
-  echo "$name_zip";
+  echo "- $name_zip";
 done

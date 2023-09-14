@@ -17,7 +17,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.backups" name="Kodi Backups" version="0.0.1" provider-name="adrian">
+</addon><addon id="script.backups" name="Kodi Backups" version="0.0.2" provider-name="adrian">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>

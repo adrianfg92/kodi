@@ -27,6 +27,9 @@ git add .;
 git commit -am "Update";
 git push;
 
+echo "
+
+Finish, addons uploaded:"
 
 for name_zip in $zips
 do

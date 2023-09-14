@@ -1,7 +1,7 @@
 echo "Init build...";
 
 echo " 1/6 ==> Removing old builds folders";
-rm -R build;
+rm -R repo;
 
 echo " 2/6 ==> Generate files";
 ./create_repository.py --datadir=build https://github.com/adrianfg92/kodi.backups .;
@@ -11,7 +11,7 @@ mkdir repo;
 
 echo " 4/6 ==> Copy all zip files";
 cp -r build/**/*.zip repo;
-#rm -R build;
+rm -R build;
 
 echo " 5/6 ==> Creating index.html";
 

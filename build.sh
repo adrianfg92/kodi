@@ -2,6 +2,7 @@ echo "Init build...";
 
 echo " 1/6 ==> Removing old builds folders";
 rm -R repo;
+#rm -R build;
 
 echo " 2/6 ==> Generate files";
 ./create_repository.py --datadir=build https://github.com/adrianfg92/kodi.backups ./repository;

@@ -1,0 +1,4 @@
+cd ../kodi.backups;
+sh build.sh;
+cd ../kodi;
+sh build.sh;
